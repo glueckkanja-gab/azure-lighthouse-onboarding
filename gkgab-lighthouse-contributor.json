@@ -40,7 +40,12 @@
                     "principalId": "[parameters('ContributorPrincipalID')]", 
                     "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
                     "principalIdDisplayName": "GKGAB Azure Lighthouse Contributor" 
-                }   
+                },                { 
+                    "principalId": "[parameters('ContributorPrincipalID')]", 
+                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+                    "principalIdDisplayName": "Remove GKGAB Azure Lighthouse Delegation" 
+                }
+
             ]
 
     },
